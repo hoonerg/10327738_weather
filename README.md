@@ -1,10 +1,9 @@
 
-# 10327738 MSc Dissertation
+# Latent Diffusion Model with VQVAE for Global Weather Forecasting
+## 10327738 MSc Dissertation
 
-Latent Diffusion Model with VQVAE for Global Weather Forecasting
-
-![architecture](https://github.com/user-attachments/assets/855b2adb-4135-4fdb-a37f-9814eebbdcef)
-![Sample_selection](https://github.com/user-attachments/assets/113172a5-1861-4ab3-ba6e-4c3a25b20dcb)
+![Model_structure-1](https://github.com/user-attachments/assets/1041d553-3133-49b6-a519-479815e4a900)
+![physics-1](https://github.com/user-attachments/assets/d9134f86-0779-42ff-96ec-8ae02d891923)
 
 
 ## Directory Structure
