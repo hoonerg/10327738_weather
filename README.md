@@ -3,8 +3,8 @@
 
 This project aims to develop and train a weather prediction model using a combination of VQ-VAE, Latent Diffusion Models, and a custom processor. The model leverages various weather datasets to compute derived variables and predict future weather conditions.
 
-[View the full PDF figure](figures/model_architecture.pdf)
-[View the full PDF figure](figures/physics.pdf)
+<embed src="figures/model_architecture.pdf" width="800px" height="600px" />
+<embed src="figures/physics.pdf" width="800px" height="600px" />
 
 ## Directory Structure
 
