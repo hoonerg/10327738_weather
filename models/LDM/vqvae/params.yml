@@ -1,0 +1,6 @@
+epochs: 1000
+batch_size: 256
+learning_rate: 0.0005
+data_dir: 10327738_weather/dataset/weatherbench/processed/
+num_embeddings: 1024
+embedding_dim: 16
