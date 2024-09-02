@@ -1,10 +1,11 @@
 
 # 10327738 MSc Dissertation
 
-This project aims to develop and train a weather prediction model using a combination of VQ-VAE, Latent Diffusion Models, and a custom processor. The model leverages various weather datasets to compute derived variables and predict future weather conditions.
+Latent Diffusion Model with VQVAE for Global Weather Forecasting
 
-<embed src="figures/model_architecture.pdf" width="800px" height="600px" />
-<embed src="figures/physics.pdf" width="800px" height="600px" />
+![architecture](https://github.com/user-attachments/assets/855b2adb-4135-4fdb-a37f-9814eebbdcef)
+![Sample_selection](https://github.com/user-attachments/assets/113172a5-1861-4ab3-ba6e-4c3a25b20dcb)
+
 
 ## Directory Structure
 
