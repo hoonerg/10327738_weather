@@ -5,6 +5,8 @@
 ![Model_structure-1](https://github.com/user-attachments/assets/1041d553-3133-49b6-a519-479815e4a900)
 ![physics-1](https://github.com/user-attachments/assets/d9134f86-0779-42ff-96ec-8ae02d891923)
 
+## Abstract
+Accurate weather forecasting is crucial for various industries and public safety. Tradition- ally, it relies on Numerical Weather Prediction (NWP) models, which demand significant computational resources and are constrained by the inherent unpredictability of atmo- spheric dynamics. Recent research has increasingly explored the use of deep learning techniques for weather forecasting, with some models even outperforming traditional op- erational NWP models across various metrics. Accordingly, this study explores the use of deep learning models, specifically a physics-informed Latent Diffusion Model (LDM), to im- prove global weather forecasting. The proposed LDM combines a Vector-Quantised Varia- tional Autoencoder (VQVAE) to encode high-dimensional atmospheric data into a compact latent space with a diffusion model that predicts future atmospheric states. A novel sample selection model further enhances forecast accuracy by identifying the most physically plau- sible samples using additional physical variables. Experimental results demonstrate that the LDM outperforms baseline models, such as UNet and Persistence, for key atmospheric variables. In addition, the inclusion of physical information and the sample selection model significantly contribute to reducing errors and improving the reliability of the predictions. However, it does not yet match the performance of state-of-the-art models, indicating the need for further refinements. Future research should focus on refining model architecture, incorporating more explicit physical information, and expanding the dataset to improve ac- curacy and generalisation.
 
 ## Directory Structure
 
@@ -76,18 +78,10 @@ python inference.py
 
 Derived variables like divergence, vorticity, total column water vapor, and integrated vapor transport are computed using scripts in `sampling/physics/`. These derived variables are critical for training the processor to correctly rank the samples based on their similarity to the ground truth. 
 
-## Important Files
-
-- **`environment.yml`**: Defines the Python environment and dependencies for this project.
-- **`train_processor.py`**: Main script for training the processor model.
-- **`inference.py`**: Script for generating predictions and evaluating the model.
-- **`physics.py`**: Contains the `PhysicsModel` class used for computing derived variables.
-- **`vqvae.py`**: Contains the VQ-VAE model implementation and training logic.
-- **`latentDM.py`**: Contains the Latent Diffusion Model implementation.
-
 ## Acknowledgments
 This project is based on code from the following repositories:
 
-https://github.com/MeteoSwiss/ldcast
-https://github.com/NVlabs/edm
-https://github.com/gaozhihan/PreDiff/tree/main
+https://github.com/MeteoSwiss/ldcast  
+https://github.com/NVlabs/edm  
+https://github.com/gaozhihan/PreDiff/tree/main  
+The author would like to acknowledge the assistance given by Research IT and the use of the Computational Shared Facility at The University of Manchester.
