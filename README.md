@@ -1,6 +1,5 @@
 
 # Latent Diffusion Model with VQVAE for Global Weather Forecasting
-## 10327738 MSc Dissertation
 
 ![Model_structure-1](https://github.com/user-attachments/assets/1041d553-3133-49b6-a519-479815e4a900)
 ![physics-1](https://github.com/user-attachments/assets/d9134f86-0779-42ff-96ec-8ae02d891923)
